@@ -1,0 +1,72 @@
+body{
+
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, blue, red);
+
+
+
+}
+
+.todo-form{
+width: 80%;
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+background-color: azure;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/*styling the input*/
+#todo-form input{
+    width: 70%;
+    padding: 10px;
+    border: 2px solid brown;
+    border-radius: 4px;
+    margin-right: 10px;
+
+
+}
+
+/*styling the button */
+#todo-form button{
+
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+/*Adding a hover effect to the button*/
+#todo-form button:hover{
+    background-color: black;
+}
+/*Style the To-Do List*/
+#todo-list{
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li{
+    background-color: aquamarine;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
